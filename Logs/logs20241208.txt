@@ -1,0 +1,118 @@
+[08-12-2024 17:23:00280 +02:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager ] User profile is available. Using '"C:\Users\a8ana\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[08-12-2024 17:23:00355 +02:00 Microsoft.Hosting.Lifetime ] Now listening on: "http://localhost:5257"
+[08-12-2024 17:23:00359 +02:00 Microsoft.Hosting.Lifetime ] Application started. Press Ctrl+C to shut down.
+[08-12-2024 17:23:00360 +02:00 Microsoft.Hosting.Lifetime ] Hosting environment: "Development"
+[08-12-2024 17:23:00361 +02:00 Microsoft.Hosting.Lifetime ] Content root path: "C:\Users\a8ana\source\repos\Web6MvcModelFirstTest\SchoolApp"
+[08-12-2024 17:24:08079 +02:00 Microsoft.Hosting.Lifetime ] Application is shutting down...
+[08-12-2024 17:24:55817 +02:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager ] User profile is available. Using '"C:\Users\a8ana\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[08-12-2024 17:24:55920 +02:00 Microsoft.Hosting.Lifetime ] Now listening on: "https://localhost:7271"
+[08-12-2024 17:24:55924 +02:00 Microsoft.Hosting.Lifetime ] Now listening on: "http://localhost:5257"
+[08-12-2024 17:24:55930 +02:00 Microsoft.Hosting.Lifetime ] Application started. Press Ctrl+C to shut down.
+[08-12-2024 17:24:55931 +02:00 Microsoft.Hosting.Lifetime ] Hosting environment: "Development"
+[08-12-2024 17:24:55931 +02:00 Microsoft.Hosting.Lifetime ] Content root path: "C:\Users\a8ana\source\repos\Web6MvcModelFirstTest\SchoolApp"
+[08-12-2024 17:25:16895 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7271""""/""" - null null
+[08-12-2024 17:25:16924 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.HomeController.Index (SchoolApp)"'
+[08-12-2024 17:25:16952 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "SchoolApp.Controllers.HomeController" ("SchoolApp").
+[08-12-2024 17:25:16972 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Index".
+[08-12-2024 17:25:17034 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Index" executed in 65.4192ms.
+[08-12-2024 17:25:17039 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.HomeController.Index (SchoolApp)" in 83.5586ms
+[08-12-2024 17:25:17040 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.HomeController.Index (SchoolApp)"'
+[08-12-2024 17:25:17045 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7271""""/""" - 200 null "text/html; charset=utf-8" 151.7547ms
+[08-12-2024 17:25:17067 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7271""""/lib/bootstrap/dist/css/bootstrap.min.css""" - null null
+[08-12-2024 17:25:17069 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7271""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - null null
+[08-12-2024 17:25:17069 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7271""""/SchoolApp.styles.css""?v=3ho_1ygyCkpbaS-VUi38G4nbtJdQb1DwGALBqyus1E8" - null null
+[08-12-2024 17:25:17070 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7271""""/lib/jquery/dist/jquery.min.js""" - null null
+[08-12-2024 17:25:17072 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7271""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - null null
+[08-12-2024 17:25:17074 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7271""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - null null
+[08-12-2024 17:25:17108 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MvcModelFirstTest\SchoolApp\wwwroot\css\site.css"'
+[08-12-2024 17:25:17109 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/SchoolApp.styles.css"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MvcModelFirstTest\SchoolApp\obj\Debug\net8.0\scopedcss\bundle\SchoolApp.styles.css"'
+[08-12-2024 17:25:17117 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MvcModelFirstTest\SchoolApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css"'
+[08-12-2024 17:25:17119 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MvcModelFirstTest\SchoolApp\wwwroot\js\site.js"'
+[08-12-2024 17:25:17120 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MvcModelFirstTest\SchoolApp\wwwroot\lib\jquery\dist\jquery.min.js"'
+[08-12-2024 17:25:17121 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MvcModelFirstTest\SchoolApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js"'
+[08-12-2024 17:25:17124 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7271""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - 200 362 "text/css" 55.0563ms
+[08-12-2024 17:25:17126 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7271""""/SchoolApp.styles.css""?v=3ho_1ygyCkpbaS-VUi38G4nbtJdQb1DwGALBqyus1E8" - 200 1127 "text/css" 57.3868ms
+[08-12-2024 17:25:17129 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7271""""/lib/bootstrap/dist/css/bootstrap.min.css""" - 200 162720 "text/css" 61.9265ms
+[08-12-2024 17:25:17132 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7271""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - 200 231 "text/javascript" 57.7965ms
+[08-12-2024 17:25:17135 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7271""""/lib/jquery/dist/jquery.min.js""" - 200 89501 "text/javascript" 65.3476ms
+[08-12-2024 17:25:17139 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7271""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - 200 78468 "text/javascript" 66.8839ms
+[08-12-2024 17:25:17178 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7271""""/favicon.ico""" - null null
+[08-12-2024 17:25:17183 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\a8ana\source\repos\Web6MvcModelFirstTest\SchoolApp\wwwroot\favicon.ico"'
+[08-12-2024 17:25:17184 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7271""""/favicon.ico""" - 200 5430 "image/x-icon" 6.6842ms
+[08-12-2024 17:25:27024 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7271""""/Teacher/Signup""" - null null
+[08-12-2024 17:25:27029 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)"'
+[08-12-2024 17:25:27032 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"SignUp\", controller = \"Teacher\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult SignUp()" on controller "SchoolApp.Controllers.TeacherController" ("SchoolApp").
+[08-12-2024 17:25:27284 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "SignUp".
+[08-12-2024 17:25:27380 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "SignUp" executed in 96.8254ms.
+[08-12-2024 17:25:27387 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)" in 352.8998ms
+[08-12-2024 17:25:27390 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)"'
+[08-12-2024 17:25:27399 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7271""""/Teacher/Signup""" - 200 null "text/html; charset=utf-8" 374.4953ms
+[08-12-2024 17:25:54037 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "POST" "https"://"localhost:7271""""/Teacher/Signup""" - "application/x-www-form-urlencoded" 444
+[08-12-2024 17:25:54044 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.TeacherController.Signup (SchoolApp)"'
+[08-12-2024 17:25:54059 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Signup\", controller = \"Teacher\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(SchoolApp.DTO.TeacherSignupDTO)" on controller "SchoolApp.Controllers.TeacherController" ("SchoolApp").
+[08-12-2024 17:25:56213 +02:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("68"ms) [Parameters=["@__username_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0"
+[08-12-2024 17:25:56734 +02:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("8"ms) [Parameters=["@__phoneNumber_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [t].[Id], [t].[InsertedAt], [t].[Institution], [t].[ModifiedAt], [t].[PhoneNumber], [t].[UserId]
+FROM [Teachers] AS [t]
+WHERE [t].[PhoneNumber] = @__phoneNumber_0"
+[08-12-2024 17:25:56950 +02:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("6"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Firstname], [Lastname], [Password], [UserRole], [Username])
+OUTPUT INSERTED.[Id], INSERTED.[InsertedAt], INSERTED.[ModifiedAt]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+[08-12-2024 17:25:56984 +02:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("6"ms) [Parameters=["@p6='?' (Size = 450), @p7='?' (Size = 4000), @p8='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Teachers] ([Institution], [PhoneNumber], [UserId])
+OUTPUT INSERTED.[Id], INSERTED.[InsertedAt], INSERTED.[ModifiedAt]
+VALUES (@p6, @p7, @p8);"
+[08-12-2024 17:25:57021 +02:00 SchoolApp.Services.TeacherService ] "Teacher: SchoolApp.Data.Teacher signed up successfully."
+[08-12-2024 17:25:57026 +02:00 Microsoft.AspNetCore.Mvc.RedirectToActionResult ] Executing RedirectResult, redirecting to "/User/Login".
+[08-12-2024 17:25:57029 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.TeacherController.Signup (SchoolApp)" in 2964.8368ms
+[08-12-2024 17:25:57031 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.TeacherController.Signup (SchoolApp)"'
+[08-12-2024 17:25:57036 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7271""""/User/Login""" - null null
+[08-12-2024 17:25:57038 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "POST" "https"://"localhost:7271""""/Teacher/Signup""" - 302 0 null 3000.9865ms
+[08-12-2024 17:25:57038 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[08-12-2024 17:25:57044 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[08-12-2024 17:25:57053 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[08-12-2024 17:25:57081 +02:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 28.3293ms.
+[08-12-2024 17:25:57083 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 36.8177ms
+[08-12-2024 17:25:57085 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[08-12-2024 17:25:57087 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7271""""/User/Login""" - 200 null "text/html; charset=utf-8" 50.9508ms
+[08-12-2024 17:26:05700 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "POST" "https"://"localhost:7271""""/User/Login""" - "application/x-www-form-urlencoded" 243
+[08-12-2024 17:26:05706 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[08-12-2024 17:26:05713 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(SchoolApp.DTO.UserLoginDTO)" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[08-12-2024 17:26:05820 +02:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("8"ms) [Parameters=["@__username_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Email], [u].[Firstname], [u].[InsertedAt], [u].[Lastname], [u].[ModifiedAt], [u].[Password], [u].[UserRole], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0"
+[08-12-2024 17:26:05974 +02:00 SchoolApp.Services.UserService ] "User: SchoolApp.Data.User found and returned."
+[08-12-2024 17:26:05984 +02:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 267.6378ms
+[08-12-2024 17:26:05993 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[08-12-2024 17:26:05998 +02:00 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware ] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No sign-in authentication handlers are registered. Did you forget to call AddAuthentication().AddCookie("Cookies",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.SignInAsync(HttpContext context, String scheme, ClaimsPrincipal principal, AuthenticationProperties properties)
+   at SchoolApp.Controllers.UserController.Login(UserLoginDTO credentials) in C:\Users\a8ana\source\repos\Web6MvcModelFirstTest\SchoolApp\Controllers\UserController.cs:line 59
+   at lambda_method269(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[08-12-2024 17:26:06081 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "POST" "https"://"localhost:7271""""/User/Login""" - 500 null "text/html; charset=utf-8" 380.944ms
+[08-12-2024 17:26:16633 +02:00 Microsoft.Hosting.Lifetime ] Application is shutting down...

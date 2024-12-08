@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "School App";
+}
+
+@using Microsoft.AspNetCore.Identity
+
+@if (User.IsInRole("Teacher"))
+{
+    <div class="text-center">
+        <span>Teacher Dashboard</span>
+    </div>
+}
+
+
+@if (User.IsInRole("Student"))
+{
+    <div>
+        <span>Student Dashboard</span>
+    </div>
+}
+
+@if (User.IsInRole("Admin"))
+{
+    <div>
+        <span>Admin Dashboard</span>
+    </div>
+}
