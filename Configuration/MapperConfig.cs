@@ -8,6 +8,7 @@ namespace SchoolApp.Configuration
         public MapperConfig() 
         {
 
+
         }
     }
 }
